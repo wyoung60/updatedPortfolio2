@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="./Assets/reset.css" />
+    <!-- google fonts link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="./Assets/style.css" />
+  </head>
+  <body>
+    <!-- Navbar class -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <a class="navbar-brand">Wesley Young</a>
+      <!-- Responsive button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar items -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="./Assets/contact.html" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="./Assets/portfolio.html" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a href="./index.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="./Assets/Images/Resume.pdf"
+              class="nav-link"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Container for main content with added padding to the top-->
+    <main class="container-fluid pt-3">
+      <!-- Row for card -->
+      <div class="row">
+        <!-- Spacing for medium and large screens -->
+        <section class="col-lg-2 col-md-2"></section>
+        <!-- Centering for medium and large screens -->
+        <section class="col-lg-8 col-md-8">
+          <!-- Adding card layout -->
+          <figure class="card">
+            <!-- Card contents -->
+            <div class="card-body">
+              <!-- Header sub-row -->
+              <header class="row">
+                <section class="col">
+                  <h1>About Me</h1>
+                </section>
+              </header>
+              <!-- Thematic break -->
+              <hr />
+              <!-- Bio pic and article sub-row -->
+              <article class="row pt-3">
+                <section class="col">
+                  <!-- Bio pic -->
+                  <img
+                    src="./Assets/Images/Aboutpic.JPG"
+                    alt="Yosemite"
+                    class="float-left"
+                  />
+                  <!-- Bio article -->
+                  <p>
+                    My name is Wesley Young. I currently live in Castle Rock,
+                    CO. I just moved here from Kalamazoo, MI in August looking
+                    to change things up in my life. I enjoy the outdoors
+                    (Colorado tops Michigan in that department in my opinion). I
+                    love to hike, camp, fish, snowboard, bike, and rock climb
+                    (only indoors so far). I've only been rock climbing for
+                    about a year and it quickly became my favorite hobby. I look
+                    forward to learning to climb real rock in the near future. I
+                    have a degree in Mechanical Engineering from Western
+                    Michigan University and worked in the field as an intern and
+                    in a product engineering role for 6 years. I have enjoyed
+                    some of my experience and I worked for an amazing company
+                    but it doesn't feel like the correct career path for me.
+                    While going through school and during my tenure as an
+                    engineer I was able to gain some exposure to coding and
+                    thoroughly enjoyed it. Now seemed like the perfect
+                    opportunity to make a career change so I enrolled into the
+                    coding bootcamp.
+                  </p>
+                </section>
+              </article>
+            </div>
+          </figure>
+        </section>
+      </div>
+    </main>
+    <!-- Bootstrap imports -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

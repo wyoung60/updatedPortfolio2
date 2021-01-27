@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="./reset.css" />
+    <!-- Google fonts link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar class copied from index.html -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <a class="navbar-brand">Wesley Young</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="./contact.html" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item active">
+            <a href="./portfolio.html" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="./Images/Resume.pdf" class="nav-link" target="_blank"
+              >Resume</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Container for page main content with added padding to the top -->
+    <main class="container-fluid p-3">
+      <div class="row">
+        <!-- Spacing for medium and large screens -->
+        <section class="col-md-2 col-lg-2"></section>
+        <!-- Centering for medium and large screens -->
+        <section class="col-md-8 col-lg-8">
+          <!-- Card layout -->
+          <figure class="card">
+            <!-- Card contents -->
+            <div class="card-body">
+              <!-- Header sub-row -->
+              <div class="row">
+                <section class="col">
+                  <h1>Portfolio</h1>
+                </section>
+              </div>
+              <!-- Thematic break -->
+              <hr />
+              <!-- Row for images -->
+              <div class="row justify-content-center">
+                <!-- Justify images left -->
+                <section class="col-md-4">
+                  <div class="card mb-2">
+                    <img
+                      class="card-img-top"
+                      src="./Images/Project_photo.png"
+                      alt="Project"
+                    />
+                    <div class="card-body">
+                      <h2 class="card-title row justify-content-center">
+                        Pours In The Outdoors
+                      </h2>
+                      <section class="row justify-content-center">
+                        <a
+                          href="https://github.com/sethklusmire/Project1"
+                          class="btn btn-secondary col"
+                          target="_blank"
+                          >Repository</a
+                        >
+                        <a
+                          href="https://sethklusmire.github.io/Project1/"
+                          class="btn btn-secondary col"
+                          target="_blank"
+                          >Website</a
+                        >
+                      </section>
+                    </div>
+                  </div>
+                </section>
+                <section class="col-md-4">
+                  <div class="card mb-2">
+                    <img
+                      class="card-img-top"
+                      src="./Images/Weather_Dashboard.JPG"
+                      alt="Project"
+                    />
+                    <div class="card-body">
+                      <h2 class="card-title row justify-content-center">
+                        Weather Dashboard
+                      </h2>
+                      <section class="row justify-content-center">
+                        <a
+                          href="https://github.com/wyoung60/weatherDashboard"
+                          class="btn btn-secondary col"
+                          target="_blank"
+                          >Repository</a
+                        >
+                        <a
+                          href="https://wyoung60.github.io/weatherDashboard/"
+                          class="btn btn-secondary col"
+                          target="_blank"
+                          >Website</a
+                        >
+                      </section>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </figure>
+        </section>
+      </div>
+    </main>
+    <!-- Bootstrap links -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
