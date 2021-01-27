@@ -18,22 +18,23 @@ body {
 }
 
 .bg {
-  text-align: center;
+  position: relative;
   background-image: url("./Images/Background.JPG");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.7;
 }
 
 a {
   font-family: "Secular One", sans-serif;
 }
 
-h1 {
+/* h1 {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 50px;
-}
+} */
 
 .fab {
   margin: 5px;
@@ -48,7 +49,17 @@ h1 {
 }
 
 .title {
-  position: relative;
-  top: 40px;
-  margin-bottom: 40px;
+  position: absolute;
+  top: 5%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  opacity: 1;
+  text-align: center;
+}
+
+.secondaryTitle {
+  margin: 0%;
+  padding: 0%;
 }
