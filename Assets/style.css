@@ -11,8 +11,19 @@
   height: 200px;
 }
 
+html,
 body {
-  background-color: darkgray;
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  text-align: center;
+  background-image: url("./Images/Background.JPG");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
@@ -34,4 +45,10 @@ h1 {
 
 .card-img-top {
   height: 200px;
+}
+
+.title {
+  position: relative;
+  top: 40px;
+  margin-bottom: 40px;
 }
