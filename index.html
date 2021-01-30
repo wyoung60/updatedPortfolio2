@@ -24,20 +24,24 @@
   </head>
   <body>
     <ul class="navElements">
-      <li class="navElement"><a>Home</a></li>
+      <li class="navElement"><a href="#about">Home</a></li>
       <li class="navElement">About</li>
       <li class="navElement">Projects</li>
       <li class="navElement">Resume</li>
     </ul>
     <div class="bg">
-      <div class="title">
-        <h1 class="secondaryTitle">Wesley</h1>
-        <h1 class="secondaryTitle">Young</h1>
-        <h2 class="secondaryTitle">Web Developer</h2>
+      <div class="titlePosition">
+        <h1 class="firstTitle">Wesley</h1>
+        <h1 class="firstTitle">Young</h1>
+        <h2 class="secondTitle">Web Developer</h2>
+        <section>
+          <i class="fab fa-github-square fa-2x" id="icon0"></i>
+          <i class="fab fa-linkedin fa-2x" id="icon1"></i>
+        </section>
       </div>
     </div>
     <section class="infoBlock">
-      <div class="internalElements">
+      <div class="internalElements" id="about">
         <header>
           <h1>About Me</h1>
         </header>
@@ -149,81 +153,59 @@
         </div>
       </div>
     </section>
-    <main class="container-fluid pt-3">
-      <!-- row for card -->
-      <div class="row">
-        <!-- Spacing for medium and large screens -->
-        <section class="col-md-2 col-lg-2"></section>
-        <!-- Centering for medium and large screens -->
-        <section class="col-md-8 col-lg-8">
-          <!-- Adding card layout -->
-          <figure class="card">
-            <!-- Card contents -->
-            <div class="card-body">
-              <!-- Header for sub-row -->
-              <header class="row">
-                <section class="col">
-                  <h1>Contact</h1>
-                </section>
-              </header>
-              <!-- Thematic break -->
-              <hr />
-              <!-- Adding user input form -->
-              <form>
-                <!-- Row for name -->
-                <div class="row pt-0">
-                  <section class="col">
-                    <label for="userName">Name</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="userName"
-                      placeholder="Enter Name"
-                    />
-                  </section>
-                </div>
-                <!-- Row for email -->
-                <div class="row pt-3">
-                  <section class="col">
-                    <label for="userEmail">Email</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="userEmail"
-                      placeholder="Email Address"
-                    />
-                  </section>
-                </div>
+    <section class="infoBlock">
+      <div class="internalElements">
+        <!-- Header for sub-row -->
+        <header>
+          <h1>Contact</h1>
+        </header>
+        <!-- Thematic break -->
+        <hr />
+        <!-- Adding user input form -->
+        <form>
+          <!-- Row for name -->
+          <div>
+            <label for="userName">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="userName"
+              placeholder="Enter Name"
+            />
+          </div>
+          <!-- Row for email -->
+          <div>
+            <label for="userEmail">Email</label>
+            <input
+              type="text"
+              class="form-control"
+              id="userEmail"
+              placeholder="Email Address"
+            />
+          </div>
 
-                <!-- Row for message -->
-                <div class="row pt-3">
-                  <section class="col">
-                    <label for="userMessage">Message</label>
-                    <textarea
-                      type="text"
-                      class="form-control"
-                      id="userMessage"
-                      placeholder="Message"
-                      rows="3"
-                    ></textarea>
-                  </section>
-                </div>
-                <!-- Row for submit button -->
-                <div class="row pt-3">
-                  <section class="col">
-                    <button type="button" class="btn btn-dark">Submit</button>
-                  </section>
-                </div>
-              </form>
-            </div>
-            <section class="row justify-content-center">
-              <i class="fab fa-github-square fa-2x" id="icon0"></i>
-              <i class="fab fa-linkedin fa-2x" id="icon1"></i>
-            </section>
-          </figure>
-        </section>
+          <!-- Row for message -->
+          <div>
+            <label for="userMessage">Message</label>
+            <textarea
+              type="text"
+              class="form-control"
+              id="userMessage"
+              placeholder="Message"
+              rows="3"
+            ></textarea>
+          </div>
+          <!-- Row for submit button -->
+          <div>
+            <button type="button" class="btn btn-dark">Submit</button>
+          </div>
+        </form>
       </div>
-    </main>
+    </section>
   </body>
   <script src="script.js"></script>
+  <script
+    src="https://kit.fontawesome.com/97d962843f.js"
+    crossorigin="anonymous"
+  ></script>
 </html>

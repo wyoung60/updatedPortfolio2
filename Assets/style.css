@@ -79,8 +79,9 @@ a {
 
 h1 {
   font-family: "Alfa Slab One", cursive;
-  font-size: 70px;
+  font-size: 300%;
   color: black;
+  text-shadow: 2px -2px 2px grey;
 }
 
 .mainTitle {
@@ -127,7 +128,7 @@ nav {
   right: 0;
 }
 
-.title {
+.titlePosition {
   position: absolute;
   top: 25%;
   right: 0;
@@ -138,8 +139,9 @@ nav {
   text-align: center;
 }
 
-.secondaryTitle {
-  font-size: 300%;
+.firstTitle {
+  text-shadow: 4px -4px 4px white;
+  font-size: 500%;
 }
 
 .infoBlock {
