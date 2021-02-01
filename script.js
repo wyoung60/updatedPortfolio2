@@ -18,39 +18,3 @@ if (linkedinLink) {
     window.open(url);
   });
 }
-
-if (openButton) {
-  openButton.addEventListener("click", function () {
-    console.log("here");
-    window.location = "./Assets/index2.html";
-  });
-}
-
-if (tabName) {
-  tabName.forEach((tab) => {
-    tab.addEventListener("click", () => {
-      let selectedTab = tab.parentElement;
-      selectedTab.setAttribute;
-      let previousTab = selectedTab;
-      let nextTab = selectedTab;
-      selectedTab.setAttribute("class", "window window1");
-      for (i = 2; i < 4; ) {
-        if (nextTab.nextElementSibling) {
-          nextTab = nextTab.nextElementSibling;
-          nextTab.setAttribute("class", `window window${i}`);
-          i++;
-        } else {
-          previousTab = previousTab.previousElementSibling;
-          previousTab.setAttribute("class", `window window${i}`);
-          i++;
-        }
-      }
-    });
-  });
-}
-
-if (returnHome) {
-  returnHome.addEventListener("click", () => {
-    window.location = "../index.html";
-  });
-}
