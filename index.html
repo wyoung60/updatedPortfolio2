@@ -24,39 +24,44 @@
   </head>
   <body>
     <ul class="navElements">
-      <li class="navElement"><a href="#about">Home</a></li>
-      <li class="navElement">About</li>
-      <li class="navElement">Projects</li>
-      <li class="navElement">Resume</li>
+      <li class="navElement"><a href="#home">Home</a></li>
+      <li class="navElement"><a href="#about">About</a></li>
+      <li class="navElement"><a href="#projects">Projects</a></li>
+      <li class="navElement"><a href="#contact">Contact</a></li>
+      <li class="navElement">
+        <a href="./Assets/Images/Resume.pdf" target="_blank">Resume</a>
+      </li>
     </ul>
-    <div class="bg">
+    <div class="bg" id="home">
       <div class="titlePosition">
         <h1 class="firstTitle">Wesley</h1>
         <h1 class="firstTitle">Young</h1>
         <h2 class="secondTitle">Web Developer</h2>
         <section>
-          <i class="fab fa-github-square fa-2x" id="icon0"></i>
-          <i class="fab fa-linkedin fa-2x" id="icon1"></i>
+          <i class="fab fa-github-square fa-2x secondTitle" id="icon0"></i>
+          <i class="fab fa-linkedin fa-2x secondTitle" id="icon1"></i>
         </section>
       </div>
     </div>
-    <section class="infoBlock">
-      <div class="internalElements" id="about">
+    <section class="infoBlock" id="about">
+      <div class="internalElements">
         <header>
-          <h1>About Me</h1>
+          <h1 class="header">About Me</h1>
         </header>
         <!-- Thematic break -->
         <hr />
         <!-- Bio pic and article sub-row -->
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
-          tempora nostrum repellat at nulla veniam fugiat, minus reprehenderit
-          tempore provident distinctio, quasi laboriosam autem labore quae sint
-          hic quam quis.
+          My name is Wesley Young. I am based in Castle Rock, Colorado. I have
+          bachelor's degree in mechanical engineering from Western Michigan
+          University and am currently enrolled in a full stack web development
+          bootcamp at Denver University. I am a problem solver and love to solve
+          puzzles. During my journey to become an engineer, I found a passion
+          for creating and troubleshooting code.
         </p>
       </div>
     </section>
-    <section class="infoBlock">
+    <section class="infoBlock" id="projects">
       <div class="internalElements">
         <header>
           <h1>Projects</h1>
@@ -153,7 +158,7 @@
         </div>
       </div>
     </section>
-    <section class="infoBlock">
+    <section class="infoBlock" id="contact">
       <div class="internalElements">
         <!-- Header for sub-row -->
         <header>
